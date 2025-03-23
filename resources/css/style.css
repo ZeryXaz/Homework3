@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+body{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-size: 16px;
+    color: aquamarine;
+    margin: 10px;
+}
+
+.grey{
+    color: gray;
+    text-align: right;
+}
+h2{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+/* Section 1 */
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.first h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+/* Section 2 */
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second p{
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+/* Section 3 */
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third img{
+    margin-top: 20px;
+}
